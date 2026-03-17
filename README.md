@@ -15,7 +15,7 @@ lambda - the density of turbines in the farm, which for a homogeneous farm is gi
 
 Furthermore, two empirical constants are required (both defined in Nishino and Smyth 2026):
 k - wake expansion factor.
-C_chi - layout coefficient.
+Cc - layout coefficient.
 
 The key outputs are:
 beta_opt - the farm speed reduction factor beta which corresponds to maximum farm power generation.
