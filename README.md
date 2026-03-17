@@ -3,7 +3,7 @@ Matlab code for calculating farm-scale induction (that is the farm-average wind 
 
 The file "main_optimumBeta" can be run directly to obtain the optimal farm performance for the input parameters specified in the file. The function "betaSolve" can be run directly to obtain the (not necessarily optimal) farm induction that results from operating at a certain  farm-average CT. 
 
-There are two options for solving for the optimum farm induction in the "main_optimumBeta" file. One uses the matlab function fsolve, which is more robust but requires the Matlab Optimization Toolbox. The oter uses simple manual iteration. Either option can be commented/uncommented in the script. 
+There are two options for solving for the optimum farm induction in the "main_optimumBeta" file. One uses the matlab function fsolve, which is more robust but requires the Matlab Optimization Toolbox. The other uses simple manual iteration. Either option can be commented/uncommented in the script. 
 
 The inputs that must be specified are:
 L - the farm length in the wind direction [m].
